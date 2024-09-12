@@ -1,8 +1,15 @@
 import "./Sidebar.css";
 import {personsImage} from "../../utils/images";
-import {navigationLinks} from "../../data/data"
+import {navigationLinks} from "../../data/data";
+import {useContext, useState} from "react";
+import {SidebarContext} from "../../context/sidebarContext";
 
 const Sidebar = () => {
+
+    const [activeLinkIdx] = useState(1);
+    const [sidebarClass, setSidebarClass] = useState("")
+    const {isSidebarOpen} = useContext(SidebarContext);
+
   return (
     <div className={`sidebar`}>
         <div className="user-info">
