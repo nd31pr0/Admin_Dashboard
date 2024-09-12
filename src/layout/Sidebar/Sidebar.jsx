@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import {personImgs} from "../../utils/images";
+import {personsImage} from "../../utils/images";
 import {navigationLinks} from "../../data/data"
 
 const Sidebar = () => {
@@ -7,7 +7,7 @@ const Sidebar = () => {
     <div className={`sidebar`}>
         <div className="user-info">
             <div className="info-img img-fit-cover">
-                <img src={personImgs.person_two} alt="profile image" />
+                <img src={personsImage.person_two} alt="profile image" />
             </div>
             <span className="info-name">Alice-doe</span>
         </div>

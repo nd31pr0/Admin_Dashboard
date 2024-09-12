@@ -6,9 +6,9 @@ import budget from "../assets/icons/budget.svg";
 import card from "../assets/icons/card.svg";
 import check from "../assets/icons/check.svg";
 import empty_check from "../assets/icons/empty_check.svg";
-import gears from "../assets/icons/gear.svg";
-import home from "../assets/icons/home.sv"
-import menu from "../assets/icons/menu.sv"
+import gears from "../assets/icons/gears.svg";
+import home from "../assets/icons/home.svg"
+import menu from "../assets/icons/menu.svg"
 import plane from "../assets/icons/plane.svg";
 import plus from "../assets/icons/plus.svg";
 import report from "../assets/icons/report.svg";

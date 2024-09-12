@@ -10,7 +10,7 @@
 /* specifying color variables*/
 :root {
   --clr-primary: #29221d;
-  --clr-primar-light: #473b33;
+  --clr-primary-light: #473b33;
   --clr-secondary: #1e1611;
   --clr-white: #fff;
   --clr-black: #000;
@@ -76,4 +76,7 @@ button {
   font-size: 14px;
 }
 
-
+.app {
+  display: flex;
+  min-height: 100vh;
+}
