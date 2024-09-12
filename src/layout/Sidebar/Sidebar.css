@@ -22,7 +22,7 @@
 }
 .info-name {
     font-size: 20px;
-    color: var(--clr-white);
+    color: var(--clr-silver-v1);
     text-transform: uppercase;;
 }
 .navigation{
@@ -76,6 +76,7 @@
 }
 .nav-link-icon{
     width: 22px;
+    background-color: var(--clr-white);
 }
 .nav-link-text{
     text-transform: capitalize;
