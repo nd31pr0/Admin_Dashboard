@@ -2,7 +2,7 @@ import "./Sidebar.css";
 import {personsImage} from "../../utils/images";
 import {navigationLinks} from "../../data/data";
 import {useContext, useState} from "react";
-import {SidebarContext} from "../../context/sidebarContext";
+import {SidebarContext} from "../../context/SidebarContext";
 
 const Sidebar = () => {
 
