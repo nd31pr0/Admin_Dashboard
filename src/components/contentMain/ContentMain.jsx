@@ -1,8 +1,13 @@
-import './ContainMain.css';
+import './ContentMain.css';
+import Cards from '../Cards/Cards'
 
 const ContentMain = () => {
   return (
-    <div>ContentMain</div>
+    <div className='main-content-holder'>
+        <div className='content-grid-one'>
+            <Cards />
+        </div>
+    </div>
   )
 }
 
