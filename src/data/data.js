@@ -125,7 +125,7 @@ export const subscriptions = [
     }
 ];
 
-export const Savings = [
+export const savings = [
     {
         id: 27,
         image: personsImage.person_one,
