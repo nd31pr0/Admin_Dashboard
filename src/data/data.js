@@ -104,7 +104,7 @@ export const Budget = [
     }
 ];
 
-export const Subscriptions = [
+export const subscriptions = [
     {
         id: 24,
         title: "LinkedIn",
