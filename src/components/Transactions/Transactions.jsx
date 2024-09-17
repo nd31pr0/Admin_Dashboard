@@ -20,6 +20,11 @@ function Transactions() {
                                 <div className='avatar img-fit-cover'>
                                     <img src={transaction.image} />
                                 </div>
+                                <p className='text'>{ transaction.name }
+                                <span>{transaction.date}</span></p>
+                            </div>
+                            <div className='grid-item-r'>
+                                <span className='text-scarlet'>${transaction.amount}</span>
                             </div>
                         </div>
                     ))
