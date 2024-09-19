@@ -22,15 +22,15 @@
     .content-grid-one{
         column-gap: 12px;
     }
+    .main-content-holder, .subgrid-two{
+        row-gap: 12px;
+    }
 }
 
 @media screen and (max-width: 992px){
-    .content-grid-one{
+    .content-grid-one .content-grid-two{
         grid-template-columns: repeat(2,1fr);
         row-gap: 12px;
-    }
-    .main-content-holder, .subgrid-two{
-        row-gap: 2px;
     }
 }
 
@@ -39,4 +39,9 @@
         grid-template-columns: repeat(1,1fr);
         column-gap: 0;
     }
+    .content-grid-two{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
+    }
 }
+
